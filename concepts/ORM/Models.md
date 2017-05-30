@@ -63,7 +63,7 @@ Waterline also includes opt-in support for promises.  Instead of calling `.exec(
 
 ### Model Methods (aka "static" or "class" methods)
 
-Model class methods are functions built into the model itself that perform a particular task on its instances (records).  This is where you will find the familiar CRUD methods for performing database operations like `.create()`, `.update()`, `.destroy()`, `.find()`, etc.
+Model class methods are functions built into the model itself that perform a particular task on its instances (records).  This is where you will find the familiar CRUD methods for performing database operations like `.create()`, `.update()`, `.destroy()`, `.find()`, etc. You can read more about the built-in model methods [here](http://sailsjs.com/documentation/reference/waterline-orm/models#?builtin-model-methods).
 
 
 ###### Custom model methods
